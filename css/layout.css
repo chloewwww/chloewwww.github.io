@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+.mauto{
+  margin: 0 auto;
+}
+.relative{
+  position: relative;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.flex{
+  display: flex;
+}
+.flex1{
+  flex: 1;
+}
+.jc-end{
+  justify-content: flex-end;
+}
+
+.form-control{
+  display: block;
+  width: 100%;
+}
+
+.mw880{
+  max-width: 880px;
+}
+.mw1040{
+  max-width: 1040px;
+}
+.mt6{
+  margin-top: 6px;
+}
+.mt8{
+  margin-top: 8px;
+}
+.mt12{
+  margin-top: 12px;
+}
+.mt16{
+  margin-top: 16px;
+}
+.mt18{
+  margin-top: 18px;
+}
+.mt24{
+  margin-top: 24px;
+}
+.mt28{
+  margin-top: 28px;
+}
+.mt32{
+  margin-top: 32px;
+}
+.mt40{
+  margin-top: 40px;
+}
+.mt60{
+  margin-top: 60px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml16{
+  margin-left: 16px;
+}
+.ml26{
+  margin-left: 26px;
+}
+.mt50{
+  margin-top: 50px;
+}
+.mr10{
+  margin-right: 10px;
+}
+.pt60{
+  padding-top: 60px;
+}
+.pt70{
+  padding-top: 70px;
+}
+.wp48{
+  width: 48%;
+}
+.wp55{
+  width: 55%;
+}
+.wp{
+  width: 31%;
+}
+
+
+.brumbs ul li{
+  font-size: 16px;
+  color: #8c6a3f;
+}
+.brumbs ul li:after{
+  margin: 0 6px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f105";
+}
+.brumbs ul li:last-child:after{
+  display: none;
+}
+.brumbs ul li a{
+  color: #8c6a3f;
+}

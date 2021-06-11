@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	  <link rel="stylesheet" type="text/css" href="css/base.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/typography.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/colors.css"/>
+		<title>PAYMENT</title>
+	</head>
+	<body>
+    <div class="bfg-top">
+      <div class="menus">
+        <a href="javascript:;" class="btn-close"><img src="images/ic-close.png" ></a>
+        <ul class="phone-dis">
+          <li><a href="#">Guild Guitars</a></li>
+          <li><a href="#">Yamaha Guitars</a></li>
+          <li><a href="#">Gordoba Guitars</a></li>
+          <li><a href="#">The Loar Guitars & Mandolins</a></li>
+          <li><a href="#">Recording King Guitars & Resonators</a></li>
+          <li><a href="#">Used & Other Guitars</a></li>
+          <li><a href="#">Deering Banjos</a></li>
+          <li><a href="#">Minis, Ukuleles & Mandolins</a></li>
+          <li><a href="#">Electic Basses</a></li>
+          <li><a href="#">Yamaha Amplifiers</a></li>
+        </ul>
+        <ul class="flex-ver">
+          <li><a href="#">Maintenance & Repair</a></li>
+          <li><a href="#">Musical Partners</a></li>
+          <li><a href="#">Policy</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <a href="javascript:;" class="nav-trigger"><img src="images/ic-menu-bar.png" ></a>
+      <div class="shop-car">
+        <a href="#" class="flex-ver"><span>SHOPPING CART</span><img src="images/ic-car.png" ></a>
+      </div>
+    </div>
+    
+    <div class="bfg-logo">
+      <h1>BROOKLYN FINE GUITARS</h1>
+    </div>
+    
+    <div class="bfg-progress flex-center">
+      <ul class="flex-center">
+        <li><p>SHOPPING BAG</p></li>
+        <li><p>SIGN IN</p></li>
+        <li><p>DELIVERY</p></li>
+        <li class="active"><p>PAYMENT</p></li>
+        <li><p>CONFIRM</p></li>
+      </ul>
+    </div>
+    
+    
+    <div class="payment mw1040 mauto relative pt60">
+      <div class="pm-header">
+        <h2 class="fw400 fs20">PAYMENT METHOD</h2>
+        <p class="fs18 mt18">Please select your preferred payment method for this order.</p>
+      </div>
+      <div class="pm-body">
+        <div class="pm-meth flex-jus active">
+          <label for="card" class="l-left flex-ver">
+            <input type="radio" class="c400401" name="method" id="card" checked="checked">
+            <img class="ml16" src="images/ic-card.png" >
+            <p class="ml10 c400401">Card</p>
+          </label>
+          <div class="form-right">
+            <div class="row">
+              <div class="form-group flex1">
+                <label for="">Name on card*</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row mt18">
+              <div class="form-group flex1">
+                <label for="">Card number*</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row mt18">
+              <div class="form-group wp48">
+                <label for="">Expiration date*</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group wp48">
+                <label for="">CVC/CVV*</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="tip mt18">
+              <p class="cD9BC9A">* required fields</p>
+            </div>
+          </div>
+        </div>
+        <div class="pm-meth flex-jus">
+          <label for="paypal" class="l-left flex-ver">
+            <input type="radio" name="method" id="paypal">
+            <img class="ml16" src="images/ic-paypal.png" >
+            <p class="ml10 c400401">Paypal</p>
+          </label>
+          <div class="form-right">
+            <div class="row">
+              <div class="form-group">
+                <label for="">Name on card*</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <label for="">Card number*</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <label for="">Expiration date*</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">CVC/CVV*</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="tip">
+              <p>* required fields</p>
+            </div>
+          </div>
+        </div>
+        <div class="pm-submit mt60">
+          <button class="submit" onclick="location.href='confirm.html'">PROCEED TO CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/com.js"></script>
+	</body>
+</html>
